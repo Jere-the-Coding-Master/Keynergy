@@ -1,5 +1,946 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fb0217a8-2fd6-4a2f-999e-5638ba5a4d23")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Switch:SW_DPDT_x2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPDT_x2"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, dual pole double throw, separate symbols"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 113.03 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2639c47f-66d6-4cb1-beae-bd06798ed841")
+	)
+	(junction
+		(at 91.44 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d0a89f0-e2db-4ae2-8404-9aaeb1ec6d35")
+	)
+	(junction
+		(at 134.62 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fc609e6-142d-424a-86b8-dbcfe81e5d6e")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046b4903-1b77-42e6-8403-e5adb23bf28f")
+	)
+	(wire
+		(pts
+			(xy 113.03 100.33) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f7adac-740d-4af2-9432-a3c9c6b82928")
+	)
+	(wire
+		(pts
+			(xy 101.6 97.79) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a78dd1-01d1-4d66-9863-9e31d5262279")
+	)
+	(wire
+		(pts
+			(xy 134.62 100.33) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20eaeee8-5857-4df0-8e40-809eb1a12443")
+	)
+	(wire
+		(pts
+			(xy 99.06 97.79) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27480060-f9c9-4928-b3b4-33e6eef34e94")
+	)
+	(wire
+		(pts
+			(xy 54.61 78.74) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323a70a1-bdac-4a52-82eb-22b7a42646b9")
+	)
+	(wire
+		(pts
+			(xy 67.31 100.33) (xy 68.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624557a5-2777-43de-b5a4-a404068a917d")
+	)
+	(wire
+		(pts
+			(xy 111.76 100.33) (xy 113.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66020801-4016-4a00-8aaf-90e07c1967e6")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c85988-b9ba-4c96-91a0-c90883d18f4e")
+	)
+	(wire
+		(pts
+			(xy 80.01 97.79) (xy 77.47 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c11e7b-376d-445d-8e3a-bb7263b7676d")
+	)
+	(wire
+		(pts
+			(xy 77.47 97.79) (xy 77.47 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777101fa-8a38-4364-8d93-79bd382bb47f")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 91.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7debf914-7b01-4677-bd93-da464b78a2aa")
+	)
+	(wire
+		(pts
+			(xy 54.61 97.79) (xy 54.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87db1324-cc32-4654-8821-5f304bdc4f9d")
+	)
+	(wire
+		(pts
+			(xy 77.47 78.74) (xy 78.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef87c3c-d52c-41be-befc-dd80558078c8")
+	)
+	(wire
+		(pts
+			(xy 90.17 100.33) (xy 91.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4a618c-badb-471c-b0df-465181cf3244")
+	)
+	(wire
+		(pts
+			(xy 123.19 97.79) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa10c8ae-9038-4339-b264-f7858d7665a6")
+	)
+	(wire
+		(pts
+			(xy 134.62 106.68) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0318746-a0c2-4819-8ecc-00fe6bd9e73a")
+	)
+	(wire
+		(pts
+			(xy 57.15 97.79) (xy 54.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b999b5eb-0dbf-41e8-bf61-4970d4b752bd")
+	)
+	(wire
+		(pts
+			(xy 91.44 106.68) (xy 68.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c04858-c30a-4275-a55d-2e3210682398")
+	)
+	(wire
+		(pts
+			(xy 91.44 100.33) (xy 91.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6fb12e2-667f-44d0-a770-8a7d19b96fd5")
+	)
+	(wire
+		(pts
+			(xy 134.62 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d771673f-7dca-42f0-8c2a-46b4ac57f6f8")
+	)
+	(wire
+		(pts
+			(xy 133.35 100.33) (xy 134.62 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8eb291a-0c6f-41f5-99d8-3286ad5e6f8d")
+	)
+	(wire
+		(pts
+			(xy 68.58 106.68) (xy 68.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db811dca-91a5-4857-89ab-546ff98d6d42")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 100.33 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e4080e-8f99-4e7e-b7ec-2907feaab93f")
+	)
+	(global_label "Col 4"
+		(shape input)
+		(at 121.92 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22aac515-326d-40e8-a416-c9336d343dd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.1665 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 1"
+		(shape input)
+		(at 149.86 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "284c9b7e-8314-41d2-9d6f-db527f0558de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.7718 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col 2"
+		(shape input)
+		(at 78.74 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c5e78c2-d594-455a-868b-59689a645421")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.9865 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col 1"
+		(shape input)
+		(at 55.88 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6434ea11-8153-4506-b3b3-a0561abe2321")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1265 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col 3"
+		(shape input)
+		(at 100.33 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72a0be48-18d9-48fc-90fb-b397687d18be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.5765 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 106.68 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49e73d25-b0c1-4ff0-bfa8-184a823698fb")
+		(property "Reference" "SW3"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6df6fe1a-b84f-4241-bf40-d906f4b082b4")
+		)
+		(pin "4"
+			(uuid "cf826986-cc15-4cbb-ba28-41adfe20bc63")
+		)
+		(pin "2"
+			(uuid "0681c4ee-68f9-4baf-88c1-c0e1c4c6f8c2")
+		)
+		(pin "1"
+			(uuid "26a44e0e-92a2-4e4c-8c39-c14ec42f45f3")
+		)
+		(pin "5"
+			(uuid "182016c7-7adf-4531-81a2-992347d2b9cd")
+		)
+		(pin "6"
+			(uuid "f9f66297-6ec3-4f01-b787-794f7d96bd1a")
+		)
+		(instances
+			(project "keynergy_schem"
+				(path "/fb0217a8-2fd6-4a2f-999e-5638ba5a4d23"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 85.09 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c8837dd-63ff-4b2c-9898-defff7c8cfc0")
+		(property "Reference" "SW2"
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "61ee33d6-8fef-49d3-a513-6ffe66032dd1")
+		)
+		(pin "4"
+			(uuid "cf826986-cc15-4cbb-ba28-41adfe20bc63")
+		)
+		(pin "2"
+			(uuid "bd9051d7-b7cc-4a79-9c72-483610ee91ed")
+		)
+		(pin "1"
+			(uuid "e83de092-5350-466e-abd9-32be945861b1")
+		)
+		(pin "5"
+			(uuid "182016c7-7adf-4531-81a2-992347d2b9cd")
+		)
+		(pin "6"
+			(uuid "f9f66297-6ec3-4f01-b787-794f7d96bd1a")
+		)
+		(instances
+			(project "keynergy_schem"
+				(path "/fb0217a8-2fd6-4a2f-999e-5638ba5a4d23"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 62.23 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc449340-a6a3-49a2-9f47-8f4c05f42eb2")
+		(property "Reference" "SW1"
+			(at 62.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 62.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4770bf96-05e5-4f5c-bcde-d9d5487faffb")
+		)
+		(pin "4"
+			(uuid "cf826986-cc15-4cbb-ba28-41adfe20bc63")
+		)
+		(pin "2"
+			(uuid "b411232b-f40c-4282-93ed-abf334674e4e")
+		)
+		(pin "1"
+			(uuid "363e9c4e-b058-4443-950e-74a14f9e645e")
+		)
+		(pin "5"
+			(uuid "182016c7-7adf-4531-81a2-992347d2b9cd")
+		)
+		(pin "6"
+			(uuid "f9f66297-6ec3-4f01-b787-794f7d96bd1a")
+		)
+		(instances
+			(project ""
+				(path "/fb0217a8-2fd6-4a2f-999e-5638ba5a4d23"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 128.27 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4234a99-f85c-47d1-8164-45b1aa1ede1e")
+		(property "Reference" "SW4"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "48449b80-3a09-4c61-a4d2-03ded44bb521")
+		)
+		(pin "4"
+			(uuid "cf826986-cc15-4cbb-ba28-41adfe20bc63")
+		)
+		(pin "2"
+			(uuid "848b57d1-a44a-489f-bb86-086092fc7385")
+		)
+		(pin "1"
+			(uuid "bd33df68-2116-4d24-b0cf-d4c371850ddc")
+		)
+		(pin "5"
+			(uuid "182016c7-7adf-4531-81a2-992347d2b9cd")
+		)
+		(pin "6"
+			(uuid "f9f66297-6ec3-4f01-b787-794f7d96bd1a")
+		)
+		(instances
+			(project "keynergy_schem"
+				(path "/fb0217a8-2fd6-4a2f-999e-5638ba5a4d23"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
