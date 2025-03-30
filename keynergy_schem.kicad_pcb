@@ -84,7 +84,7 @@
 		(uuid "bbe3ee0d-8ce8-40a5-a63a-1e8ef212298e")
 		(at 56.272 88.225312)
 		(property "Reference" "REF**"
-			(at 0 -0.5 0)
+			(at 0 8.128 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "da1d8e3e-66cb-4191-8de4-1d15ea940f3b")
@@ -96,7 +96,7 @@
 			)
 		)
 		(property "Value" "Solenoid Key"
-			(at 0 1 0)
+			(at -0.127 9.652 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "07bd478b-0014-4529-be56-adffc8f371b4")
@@ -156,8 +156,19 @@
 			(layer "F.SilkS")
 			(uuid "feb4267e-a77d-4e92-ab79-a01bd957072a")
 		)
+		(fp_rect
+			(start -4.4915 -4.4915)
+			(end 4.5085 4.5085)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill yes)
+			(layer "Edge.Cuts")
+			(uuid "1f6a527c-1995-4883-b09c-614e5930fa7d")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at -0.254 11.43 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e04e0859-e346-457c-a0df-98735253f5ba")
@@ -169,8 +180,8 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -14.4145 -0.0635)
-			(size 2.159 7.493)
+			(at -14.4145 0)
+			(size 2.159 7.366)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0)
 			(chamfer_ratio 0.3)
@@ -345,17 +356,6 @@
 		(uuid "be42974d-90ea-4f71-98e1-60b97bc44c0b")
 	)
 	(gr_rect
-		(start 26.1 23.6)
-		(end 222.1 98.3)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Cu")
-		(uuid "c444923a-28c8-473e-b998-06862fddd604")
-	)
-	(gr_rect
 		(start 123.6 56)
 		(end 125.1 61.8)
 		(stroke
@@ -486,6 +486,17 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "94f5fb00-925f-43f6-9c20-2057327e8553")
+	)
+	(gr_rect
+		(start 26.1 23.6)
+		(end 222.1 103.38)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "c444923a-28c8-473e-b998-06862fddd604")
 	)
 	(gr_rect
 		(start 51.2 54.5)
