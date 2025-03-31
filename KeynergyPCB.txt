@@ -1,0 +1,130 @@
+Info: Processing symbol 'D1:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D4:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D3:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'D2:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'J3:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'J1:Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical'.
+Info: Processing symbol 'K1:project library:Solenoid Key'.
+Info: Processing symbol 'K2:project library:Solenoid Key'.
+Info: Processing symbol 'K3:project library:Solenoid Key'.
+Info: Processing symbol 'K4:project library:Solenoid Key'.
+Updated D1 fields.
+Updated D1 sheetname to '/'.
+Updated D1 sheetfile to 'keynergy_schem.kicad_sch'.
+Updated D1 footprint filters to 'TO-???* *_Diode_* *SingleDiode* D_*'.
+Add net Row 1.
+Connected D1 pin 1 to Row 1.
+Add net Net-(D1-A).
+Connected D1 pin 2 to Net-(D1-A).
+Added D2 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D2.
+Changed D2 value from D_DO-35_SOD27_P7.62mm_Horizontal to D.
+Updated D2 symbol association from  to /6a5c5bf4-c005-44b1-9321-738586017723.
+Updated D2 fields.
+Updated D2 sheetname to '/'.
+Updated D2 sheetfile to 'keynergy_schem.kicad_sch'.
+Updated D2 footprint filters to 'TO-???* *_Diode_* *SingleDiode* D_*'.
+Connected D2 pin 1 to Row 1.
+Add net Net-(D2-A).
+Connected D2 pin 2 to Net-(D2-A).
+Added D3 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D3.
+Changed D3 value from D_DO-35_SOD27_P7.62mm_Horizontal to D.
+Updated D3 symbol association from  to /748bf4dc-f0ab-4b09-8c64-b58b69b7c866.
+Updated D3 fields.
+Updated D3 sheetname to '/'.
+Updated D3 sheetfile to 'keynergy_schem.kicad_sch'.
+Updated D3 footprint filters to 'TO-???* *_Diode_* *SingleDiode* D_*'.
+Connected D3 pin 1 to Row 1.
+Add net Net-(D3-A).
+Connected D3 pin 2 to Net-(D3-A).
+Added D4 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D4.
+Changed D4 value from D_DO-35_SOD27_P7.62mm_Horizontal to D.
+Updated D4 symbol association from  to /bce9327e-5f22-4ffb-9f33-48206158f063.
+Updated D4 fields.
+Updated D4 sheetname to '/'.
+Updated D4 sheetfile to 'keynergy_schem.kicad_sch'.
+Updated D4 footprint filters to 'TO-???* *_Diode_* *SingleDiode* D_*'.
+Add net Net-(D4-A).
+Connected D4 pin 2 to Net-(D4-A).
+Added J1 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical').
+Changed REF** reference designator to J1.
+Changed J1 value from PinHeader_1x03_P2.54mm_Vertical to Conn_01x03_Pin.
+Updated J1 symbol association from  to /88c2ee65-8b9b-4edc-9ffd-bdb015078e63.
+Updated J1 fields.
+Updated J1 sheetname to '/'.
+Updated J1 sheetfile to 'keynergy_schem.kicad_sch'.
+Updated J1 footprint filters to 'Connector*:*_1x??_*'.
+Connected J1 pin 1 to Row 1.
+Add net Row 3.
+Connected J1 pin 3 to Row 3.
+Add net Row 2.
+Connected J1 pin 2 to Row 2.
+Connected D4 pin 1 to Row 1.
+Added J3 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical').
+Changed REF** reference designator to J3.
+Changed J3 value from PinHeader_1x04_P2.54mm_Vertical to Conn_01x04_Pin.
+Updated J3 symbol association from  to /bd02118d-d817-419e-baf2-386ce068fc6e.
+Updated J3 fields.
+Updated J3 sheetname to '/'.
+Updated J3 sheetfile to 'keynergy_schem.kicad_sch'.
+Updated J3 footprint filters to 'Connector*:*_1x??_*'.
+Add net Col 3.
+Connected J3 pin 3 to Col 3.
+Add net Col 2.
+Connected J3 pin 2 to Col 2.
+Add net Col 4.
+Connected J3 pin 4 to Col 4.
+Add net Col 1.
+Connected J3 pin 1 to Col 1.
+Added D1 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Added K1 (footprint 'project library:Solenoid Key').
+Changed REF** reference designator to K1.
+Changed K1 value from Solenoid Key to ~.
+Updated K1 symbol association from  to /99070fbb-cdfe-419a-820a-5ac68e373a3f.
+Updated K1 sheetname to '/'.
+Updated K1 sheetfile to 'keynergy_schem.kicad_sch'.
+Connected K1 pin 4 to Col 1.
+Connected K1 pin 1 to Row 3.
+Connected K1 pin 3 to Net-(D1-A).
+Add net Net-(K1-C2).
+Connected K1 pin 2 to Net-(K1-C2).
+Changed REF** reference designator to D1.
+Added K2 (footprint 'project library:Solenoid Key').
+Changed REF** reference designator to K2.
+Changed K2 value from Solenoid Key to ~.
+Updated K2 symbol association from  to /c9e06a96-a36d-4ed6-89bd-a2d390b894b8.
+Updated K2 sheetname to '/'.
+Updated K2 sheetfile to 'keynergy_schem.kicad_sch'.
+Connected K2 pin 1 to Net-(K1-C2).
+Add net Net-(K2-C2).
+Connected K2 pin 2 to Net-(K2-C2).
+Connected K2 pin 4 to Col 2.
+Connected K2 pin 3 to Net-(D2-A).
+Changed D1 value from D_DO-35_SOD27_P7.62mm_Horizontal to D.
+Added K3 (footprint 'project library:Solenoid Key').
+Changed REF** reference designator to K3.
+Changed K3 value from Solenoid Key to ~.
+Updated K3 symbol association from  to /5062fed2-7454-45a2-9195-b1aeac31ce97.
+Updated K3 sheetname to '/'.
+Updated K3 sheetfile to 'keynergy_schem.kicad_sch'.
+Add net Net-(K3-C2).
+Connected K3 pin 2 to Net-(K3-C2).
+Connected K3 pin 3 to Net-(D3-A).
+Connected K3 pin 1 to Net-(K2-C2).
+Connected K3 pin 4 to Col 3.
+Updated D1 symbol association from  to /117b778e-4108-4ded-8302-55b5e7ca4956.
+Added K4 (footprint 'project library:Solenoid Key').
+Changed REF** reference designator to K4.
+Changed K4 value from Solenoid Key to ~.
+Updated K4 symbol association from  to /53ab0d22-7eef-4b1c-a992-4684d1bca737.
+Updated K4 sheetname to '/'.
+Updated K4 sheetfile to 'keynergy_schem.kicad_sch'.
+Connected K4 pin 2 to Row 2.
+Connected K4 pin 4 to Col 3.
+Connected K4 pin 3 to Net-(D4-A).
+Connected K4 pin 1 to Net-(K3-C2).
+
+
+Info: Total warnings: 0, errors: 0.
