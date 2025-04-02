@@ -11508,6 +11508,39 @@
 		(uuid "e3fdd6ca-8b19-4054-9ad8-46d65399e988")
 	)
 	(gr_rect
+		(start 315.341 -36.957)
+		(end 585.216 52.324)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "40169a2c-e1cc-4014-ab7f-b8ce7a895525")
+	)
+	(gr_rect
+		(start 322.58 61.976)
+		(end 383.794 223.012)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "876fa5b2-35e7-4f86-8985-2ce05f4960fc")
+	)
+	(gr_rect
+		(start 205.486 225.806)
+		(end 399.796 314.833)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "92b68d26-24ec-433b-9790-88f6dd342d38")
+	)
+	(gr_rect
 		(start 19.05 20.066)
 		(end 219.964 107.95)
 		(stroke
