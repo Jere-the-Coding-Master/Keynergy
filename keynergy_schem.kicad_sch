@@ -5878,7 +5878,7 @@
 	)
 	(global_label "Coil 1-2"
 		(shape input)
-		(at 139.7 50.8 180)
+		(at 139.7 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5888,7 +5888,7 @@
 		)
 		(uuid "575daa87-42d7-4d6f-90f3-c0cb8b7ed8a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0668 50.8 0)
+			(at 128.0668 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,6 +6140,28 @@
 			)
 		)
 	)
+	(global_label "Coil 1-2"
+		(shape input)
+		(at 139.7 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75fb8bcb-d874-4f1e-a572-25163eb9df56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.0668 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Column 1"
 		(shape input)
 		(at 34.29 158.75 0)
@@ -6197,6 +6219,28 @@
 		(uuid "82fddd47-c0fc-4ddf-9f73-41c2062457cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.81 41.4478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Coil 1-1"
+		(shape input)
+		(at 139.7 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97fb07d0-bd2b-4cfa-ada7-af1a266158e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.0668 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +6560,7 @@
 	)
 	(global_label "Coil 1-1"
 		(shape input)
-		(at 139.7 53.34 180)
+		(at 139.7 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6526,7 +6570,29 @@
 		)
 		(uuid "c86eda43-0ee8-4141-83f2-983ea1267dd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0668 53.34 0)
+			(at 128.0668 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Coil 2-2"
+		(shape input)
+		(at 139.7 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc3d0743-4e6e-4b01-a846-50c658eeb7ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.0668 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,6 +6774,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Coil 2-1"
+		(shape input)
+		(at 139.7 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eba9d57a-8c91-464d-aeb8-ab8483644da4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.0668 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7831,6 +7919,80 @@
 			(project "keynergy_schem"
 				(path "/fb0217a8-2fd6-4a2f-999e-5638ba5a4d23"
 					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 144.78 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86af736e-c986-4f8f-9ac8-5d030d3ad49b")
+		(property "Reference" "J8"
+			(at 147.066 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 153.416 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "be2cd454-89e9-422c-882f-afd65d9f0c2a")
+		)
+		(pin "3"
+			(uuid "8f290e2a-c77e-482e-a7d5-ee60d681dbff")
+		)
+		(pin "1"
+			(uuid "d4c479eb-76ad-4b49-a761-9a27f5816caa")
+		)
+		(pin "2"
+			(uuid "4d05f5b2-d1eb-4902-a7e8-2a79c314e369")
+		)
+		(instances
+			(project "keynergy_schem"
+				(path "/fb0217a8-2fd6-4a2f-999e-5638ba5a4d23"
+					(reference "J8")
 					(unit 1)
 				)
 			)
