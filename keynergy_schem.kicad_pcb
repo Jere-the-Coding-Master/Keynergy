@@ -1223,7 +1223,7 @@
 	(footprint "project library:Solenoid Key"
 		(layer "F.Cu")
 		(uuid "29735b8b-83bb-4c55-b106-fa4de56228db")
-		(at -246.5615 97.136 -90)
+		(at 59.9 257.335 -90)
 		(property "Reference" "K12"
 			(at -1.016 -0.5 270)
 			(unlocked yes)
@@ -1442,7 +1442,7 @@
 	(footprint "project library:Solenoid Key"
 		(layer "F.Cu")
 		(uuid "30863c11-6cbf-49b7-bc9e-79a5807d8459")
-		(at -63.2615 97.136 -90)
+		(at 270.4 257.271 -90)
 		(property "Reference" "K9"
 			(at -1.016 -0.5 270)
 			(unlocked yes)
@@ -2653,7 +2653,7 @@
 	(footprint "project library:Solenoid Key"
 		(layer "F.Cu")
 		(uuid "4bc2bf2d-5749-4fd2-8802-2bdc018774a2")
-		(at -124.3615 161.236 -90)
+		(at 182.4 327.935 -90)
 		(property "Reference" "K14"
 			(at -1.016 -0.5 270)
 			(unlocked yes)
@@ -2872,12 +2872,12 @@
 	(footprint "project library:Solenoid Key"
 		(layer "F.Cu")
 		(uuid "4dc1ee38-95f8-4a3f-95b9-c9794517e141")
-		(at -185.4615 97.136 -90)
+		(at 130.4 257.335 -90)
 		(property "Reference" "K11"
 			(at -1.016 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "a562086a-bc24-4d98-a6e6-030124240f0a")
+			(uuid "686344e1-2ca7-4f28-97c6-1e1e3f2e3da4")
 			(effects
 				(font
 					(size 1 1)
@@ -2889,7 +2889,7 @@
 			(at -1.016 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "58cc7901-a1ce-4c2a-be00-d4bd17d37cc8")
+			(uuid "e05b63f1-3bc9-43eb-9b78-9f920038575b")
 			(effects
 				(font
 					(size 1 1)
@@ -2902,7 +2902,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00f870cc-fe49-472a-aa9c-b8876cf6f773")
+			(uuid "37f5c363-2064-431c-af7f-6fefa892c47a")
 			(effects
 				(font
 					(size 1 1)
@@ -2915,7 +2915,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8638b466-c8b2-48b0-beb9-a4f872db31be")
+			(uuid "181899ff-2b7e-43d2-9c23-8c1794d54cbb")
 			(effects
 				(font
 					(size 1 1)
@@ -5274,7 +5274,7 @@
 	(footprint "project library:Solenoid Key"
 		(layer "F.Cu")
 		(uuid "c058dfe5-822f-4737-bbca-e3a72375f934")
-		(at -63.2615 161.236 -90)
+		(at 243.5 327.935 -90)
 		(property "Reference" "K13"
 			(at -1.016 -0.5 270)
 			(unlocked yes)
@@ -7785,7 +7785,7 @@
 	(footprint "project library:Solenoid Key"
 		(layer "F.Cu")
 		(uuid "d37e37ce-536a-4e72-823c-4ae949122eea")
-		(at -124.3615 97.136 -90)
+		(at 200.4 257.335 -90)
 		(property "Reference" "K10"
 			(at -1.016 -0.5 270)
 			(unlocked yes)
@@ -8377,7 +8377,7 @@
 	(footprint "project library:Solenoid Key"
 		(layer "F.Cu")
 		(uuid "da3b8c32-8ddd-4ec7-9331-ec06aedf316e")
-		(at -185.4615 161.236 -90)
+		(at 121.3 327.935 -90)
 		(property "Reference" "K15"
 			(at -1.016 -0.5 270)
 			(unlocked yes)
@@ -10419,7 +10419,7 @@
 	(footprint "project library:Solenoid Key"
 		(layer "F.Cu")
 		(uuid "ddd595a3-5213-4a9f-9152-63219634ebf1")
-		(at -246.5615 161.236 -90)
+		(at 60.2 327.935 -90)
 		(property "Reference" "K16"
 			(at -1.016 -0.5 270)
 			(unlocked yes)
@@ -15457,6 +15457,14 @@
 		(uuid "f5de65ff-47e2-42dd-b0cc-0afc8ffa22a5")
 	)
 	(segment
+		(start 50 127.94)
+		(end 50 132)
+		(width 2)
+		(layer "F.Cu")
+		(net 49)
+		(uuid "00b7a4d5-069f-4e58-adf3-c19143961ede")
+	)
+	(segment
 		(start 207.351 165.726)
 		(end 207.451 165.826)
 		(width 2)
@@ -15465,20 +15473,20 @@
 		(uuid "26834629-120b-4718-b7d0-5f4ac3f69d8b")
 	)
 	(segment
-		(start 50 127.94)
-		(end 50 161.4895)
+		(start 50 132)
+		(end 52 134)
 		(width 2)
 		(layer "F.Cu")
 		(net 49)
-		(uuid "2a6e864b-6d92-4c7a-b15d-ef6283fe4032")
+		(uuid "7223d612-1380-455c-8232-9477cf36e046")
 	)
 	(segment
-		(start 50 161.4895)
-		(end 54.2365 165.726)
+		(start 52 134)
+		(end 52 163.4895)
 		(width 2)
 		(layer "F.Cu")
 		(net 49)
-		(uuid "9cfdcafd-a4c5-4d83-baa4-57c779909029")
+		(uuid "9f5c0f90-0529-4f4e-ba76-991a0cd26944")
 	)
 	(segment
 		(start 207.451 165.826)
@@ -15497,12 +15505,20 @@
 		(uuid "c1a4e133-89de-4525-a8c8-e247bb66d9ac")
 	)
 	(segment
+		(start 52 163.4895)
+		(end 54.2365 165.726)
+		(width 2)
+		(layer "F.Cu")
+		(net 49)
+		(uuid "d987bdd0-c277-4dbf-8ba3-8c098e504f72")
+	)
+	(segment
 		(start 54.2365 165.726)
 		(end 59.9865 165.726)
 		(width 2)
 		(layer "F.Cu")
 		(net 49)
-		(uuid "d903ed25-d007-4502-99de-68e54cdb2eaa")
+		(uuid "f701f868-55bc-4ad1-b8c6-bbf08e865a27")
 	)
 	(segment
 		(start 60.05 149.089)
@@ -15673,12 +15689,20 @@
 		(uuid "205343d7-8d46-40cc-bdbe-8cfbe281ec1c")
 	)
 	(segment
-		(start 50 96.8375)
+		(start 52 94.8375)
+		(end 52 119)
+		(width 2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "2966022d-09de-49f3-b38e-f2cf59008a25")
+	)
+	(segment
+		(start 50 121)
 		(end 50 125)
 		(width 2)
 		(layer "F.Cu")
 		(net 76)
-		(uuid "301c9dd9-f75e-48e6-adb9-53c1359ea55f")
+		(uuid "57950edb-610e-412e-9ded-c3620bbe15d6")
 	)
 	(segment
 		(start 60.0365 92.551)
@@ -15686,15 +15710,7 @@
 		(width 2)
 		(layer "F.Cu")
 		(net 76)
-		(uuid "41816c7f-e62d-43ad-9102-d78a085bec91")
-	)
-	(segment
-		(start 54.2865 92.551)
-		(end 50 96.8375)
-		(width 2)
-		(layer "F.Cu")
-		(net 76)
-		(uuid "5b3e85ab-9367-4773-a0de-0428efed22f7")
+		(uuid "6b480ab5-d4c7-4b50-bb18-8234a2f594ae")
 	)
 	(segment
 		(start 152.551 92.551)
@@ -15705,12 +15721,28 @@
 		(uuid "9b930c1b-8a71-4c49-9108-cbe8b3a31f6f")
 	)
 	(segment
+		(start 54.2865 92.551)
+		(end 52 94.8375)
+		(width 2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "9fe67f5f-2476-43ec-b4a5-5d752c30df86")
+	)
+	(segment
 		(start 60.0365 92.551)
 		(end 152.551 92.551)
 		(width 2)
 		(layer "F.Cu")
 		(net 76)
 		(uuid "bf0fd711-d5cd-4b7f-b668-ada062cec9bd")
+	)
+	(segment
+		(start 52 119)
+		(end 50 121)
+		(width 2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "d0c7b0dc-acda-48ef-8814-cfb78e64c5ed")
 	)
 	(segment
 		(start 59.85 75.914)
